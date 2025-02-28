@@ -23,8 +23,10 @@ export const DATA = {
     "MySQL",
     "Prisma",
     "PostgresSQL",
+    "Nginx",
     "AWS",
     "CI/CD",
+    "Maven",
     "Jenkins",
     "Docker",
     "JavaScript",
@@ -35,7 +37,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
   contact: {
-    email: "abhishekgupta3104@gmail",
+    email: "mailto:abhishekgupta3104@gmail.com",
     tel: "8356029841",
     social: {
       GitHub: {

@@ -223,7 +223,7 @@ export default function Page() {
                 </Link>{" "}
                 <span>or </span>
                 <Link
-                  href={`mailto:${DATA.contact.email}`}
+                  href={DATA.contact.email}
                   className="text-blue-500 hover:underline"
                 >
                    Email 
