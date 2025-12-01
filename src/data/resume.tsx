@@ -8,9 +8,9 @@ export const DATA = {
   location: "Maharashtra, Thane",
   locationLink: "",
   description:
-    "",
+    "Software Engineer who loves building and creating impact!",
   summary:
-    "As a Full-Stack Developer, I specialize in building complete web applications from the ground up. I have expertise in both front-end and back-end technologies, enabling me to design user-friendly interfaces and develop robust server-side logic. My goal is to create seamless, efficient, and scalable applications that deliver a great user experience.",
+    "I build Software with expertise in Full-Stack development and DevOps. I work across the entire development process, from creating intuitive user interfaces to managing backend functionality and deployment. I focus on delivering clean, efficient, and reliable applications. My goal is to create solutions that are scalable, seamless, and enjoyable to use.",
   avatarUrl: "/me.jpg",
   skills: [
     "React.js",
@@ -29,6 +29,7 @@ export const DATA = {
     "Maven",
     "Jenkins",
     "Docker",
+    "Kubernetes",
     "JavaScript",
     "Java",
     "C++",
