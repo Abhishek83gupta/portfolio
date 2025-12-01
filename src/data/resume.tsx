@@ -124,6 +124,8 @@ export const DATA = {
         "TailwindCSS",
         "Shadcn UI",
         "NextAuth",
+        "Docker",
+        "AWS"
       ],
       links: [
         {
@@ -156,6 +158,8 @@ export const DATA = {
         "TailwindCSS",
         "Shadcn UI",
         "NextAuth",
+        "Docker",
+        "AWS"
       ],
       links: [
         {
@@ -204,35 +208,31 @@ export const DATA = {
       image: "/pickest.png",
       video: "",
     },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    {
+      title: "Setups",
+      href: "https://github.com/Abhishek83gupta/setups",
+      // dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed a centralized repository containing setup files, configuration templates, and automation scripts to streamline DevOps workflows.",
+      technologies: [
+        "Shell Scripting",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://automatic.chat",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+         {
+          type: "Source",
+          href: "https://github.com/Abhishek83gupta/setups",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // image: "",
+      // video:"",
+    },
   ],
   hackathons: [
     {
