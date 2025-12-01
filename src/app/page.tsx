@@ -40,6 +40,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       {/* About */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
@@ -51,8 +52,9 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
       {/* work */}
-      {/* <section id="work">
+      <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -76,7 +78,8 @@ export default function Page() {
             </BlurFade>
           ))}
         </div>
-      </section> */}
+      </section>
+      
       {/* Skills */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -92,6 +95,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       {/* Projects */}
       <section id="projects">
         <div className="space-y-12 w-full py-12">
@@ -134,6 +138,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
        {/* Education */}
        <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
@@ -158,6 +163,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+
       {/* Hackathons */}
       {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
@@ -172,7 +178,7 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
+                  5+ hackathons. People from around the
                   country would come together and build incredible things in 2-3
                   days. It was eye-opening to see the endless possibilities
                   brought to life by a group of motivated and passionate
@@ -202,6 +208,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section> */}
+
       {/* Contact */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">

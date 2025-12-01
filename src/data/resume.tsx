@@ -70,16 +70,30 @@ export const DATA = {
   },
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "AffieFly (Growdeck)",
+      href: "https://growdeck.io",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      title: "Software Engineer Intern",
+      logoUrl: "/growdeck.svg",
+      start: "April 2025",
+      end: "Present",
+      description: [
+     "Implemented CI/CD pipelines using GitHub Actions across dev, test, and prod environments, automating deployments and reducing manual effort by 40%.",
+     "Integrated Redis caching to optimize data retrieval, reducing API response latency from 1.5s to 200ms.",
+     "Added API rate limiting to prevent request abuse, reducing server load by 30% and maintaining high availability."
+     ],
+    },
+     {
+      company: "SAIT",
+      href: "",
+      badges: [],
+      location: "",
+      title: "Technical Head",
+      logoUrl: "/sait.png",
+      start: "June 2024",
+      end: "May 2025",
+      description: [],
     },
   ],
   education: [
