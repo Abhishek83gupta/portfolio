@@ -35,6 +35,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "https://drive.google.com/file/d/18i9IgJAyQCHAeT5o_csckNeuc6fKMlzP/view", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
     email: "mailto:abhishekgupta3104@gmail.com",
