@@ -76,15 +76,10 @@ export const DATA = {
       href: "https://growdeck.io",
       badges: [],
       location: "Remote",
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       logoUrl: "/growdeck.svg",
       start: "April 2025",
       end: "Present",
-      description: [
-     "Implemented CI/CD pipelines using GitHub Actions across dev, test, and prod environments, automating deployments and reducing manual effort by 40%.",
-     "Integrated Redis caching to optimize data retrieval, reducing API response latency from 1.5s to 200ms.",
-     "Added API rate limiting to prevent request abuse, reducing server load by 30% and maintaining high availability."
-     ],
     },
      {
       company: "SAIT",
@@ -230,7 +225,7 @@ export const DATA = {
       // dates: "April 2023 - March 2024",
       active: true,
       description:
-        "Developed a centralized repository containing setup files, configuration templates, and automation scripts to streamline DevOps workflows.",
+        "Automation scripts for DevOps workflows.",
       technologies: [
         "Shell Scripting",
       ],
@@ -243,6 +238,31 @@ export const DATA = {
          {
           type: "Source",
           href: "https://github.com/Abhishek83gupta/setups",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      // image: "",
+      // video:"",
+    },
+    {
+      title: "kube-starter",
+      href: "https://github.com/Abhishek83gupta/Kubernetes",
+      // dates: "April 2023 - March 2024",
+      active: true,
+      description:
+       "Things you need to know to set up a Kubernetes cluster",
+      technologies: [
+        "Shell Scripting",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://automatic.chat",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+         {
+          type: "Source",
+          href: "https://github.com/Abhishek83gupta/Kubernetes",
           icon: <Icons.github className="size-3" />,
         },
       ],

@@ -40,10 +40,11 @@ export function ProjectCard({
   links,
   className,
 }: Props) {
+   const hasMedia = Boolean(video || image);
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-fit"
+        `flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out ${hasMedia ? "h-full": "h-fit"}`
       }
     >
       <Link
@@ -57,7 +58,7 @@ export function ProjectCard({
             loop
             muted
             playsInline
-            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
+            className="pointer-events-none mx-auto h-40 w-full object-cover object-top" 
           />
         )}
         {image && (
