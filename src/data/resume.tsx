@@ -79,7 +79,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "/growdeck.svg",
       start: "April 2025",
-      end: "Present",
+      end: "August 2026",
     },
      {
       company: "SAIT",
@@ -122,7 +122,7 @@ export const DATA = {
   projects: [
     {
       title: "VisioGen",
-      href: "https://visiogen-five.vercel.app",
+      href: "https://visiogen-alpha.vercel.app",
       dates: "",
       active: true,
       description:
