@@ -121,40 +121,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "FixCode",
-      href: "https://fix-code.vercel.app",
-      dates: "",
-      active: true,
-      description:
-        "FixCode is an intelligent language editor that helps developers identify and fix errors in their code seamlessly. With its ASK AI feature, users can receive instant error solutions and suggestions, improving efficiency and learning. Additionally, FIXCODE allows users to easily share their code with others.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "NextAuth",
-        "Docker",
-        "AWS"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://fix-code.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Abhishek83gupta/FixCode",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/fixcode.png",
-      video:
-        "",
-    },
-    {
       title: "VisioGen",
       href: "https://visiogen-five.vercel.app",
       dates: "",
@@ -245,12 +211,12 @@ export const DATA = {
       // video:"",
     },
     {
-      title: "kube-starter",
+      title: "k8s-setup",
       href: "https://github.com/Abhishek83gupta/Kubernetes",
       // dates: "April 2023 - March 2024",
       active: true,
       description:
-       "Things you need to know to set up a Kubernetes cluster",
+       "Things you need to know to set up a k8s cluster",
       technologies: [
         "Shell Scripting",
       ],
